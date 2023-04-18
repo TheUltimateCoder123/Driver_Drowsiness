@@ -1,0 +1,44 @@
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  background-color: #6c6a6a;
+ 
+}
+
+/* Style the page title */
+h1 {
+  text-align: center;
+  margin-top: 20px;
+  color:#f4f4f4;
+}
+
+/* Style the video feed image */
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 640px;
+  height: auto;
+  border: 10px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #ddd;
+}
+
+/* Style the state paragraph */
+p#state {
+  text-align: center;
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+/* Style the event source error message */
+#error {
+  text-align: center;
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 20px;
+  color: red;
+}
+video {
+  width: 100%;
+}
